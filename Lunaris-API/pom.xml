@@ -106,7 +106,7 @@
     </dependencies>
 
     <build>
-        <finalName>WindSpigot-API</finalName>
+        <finalName>Lunaris-API</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

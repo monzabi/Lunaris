@@ -14,7 +14,8 @@ public class LunarisCommand extends Command {
     @Override
     public boolean execute(CommandSender sender, String commandLabel, String[] args) {
 
-        if (sender instanceof final Player player) {
+        if (sender instanceof Player) {
+            final Player player = (Player) sender;
             if (player.hasPermission("lunaris.command")) {
                 if (args.length == 0) {
                     player.sendMessage(Lunaris.lunaris().lunarisHandler().prefix()
